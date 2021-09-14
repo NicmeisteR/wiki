@@ -1,3 +1,7 @@
+# Start
+docker-compose -f dev/containers/docker-compose.yml up -d
+docker exec wiki-app yarn dev
+
 <div align="center">
 
 <img src="https://static.requarks.io/logo/wikijs-full.svg" alt="Wiki.js" width="600" />
