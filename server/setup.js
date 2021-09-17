@@ -124,8 +124,8 @@ module.exports = () => {
         clientId: uuid()
       })
       _.set(WIKI.config, 'theming', {
-        theme: 'default',
-        darkMode: true,
+        theme: 'infoslips',
+        darkMode: false,
         iconset: 'mdi',
         injectCSS: '',
         injectHead: '',

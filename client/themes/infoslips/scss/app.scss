@@ -1009,6 +1009,29 @@
   border-color: #7bb026 !important;
 }
 
+.v-application .primary.darken-2 {
+  background-color: #63971B !important;
+  border-color: #63971B !important;
+}
+
+.v-application .primary.darken-3 {
+  background-color: #4C7E13 !important;
+  border-color: #4C7E13 !important;
+}
+
+.v-application .primary.darken-4 {
+  background-color: rgb(0 0 0)!important;
+  border-color: rgb(0 0 0) !important;
+}
+
 .v-navigation-drawer {
   background-color: white !important;
+}
+
+.v-application .login {
+  background-image: url("https://i.imgur.com/HfULPpX.png") !important;
+}
+
+.login-logo {
+  width: 152px !important; 
 }

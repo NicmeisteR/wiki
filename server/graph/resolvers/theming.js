@@ -17,6 +17,11 @@ module.exports = {
         key: 'default',
         title: 'Default',
         author: 'requarks.io'
+      },
+      { // TODO
+        key: 'infoslips',
+        title: 'InfoSlips',
+        author: 'InfoSlips'
       }]
     },
     async config(obj, args, context, info) {

@@ -50,9 +50,9 @@ defaults:
     nav:
       mode: 'MIXED'
     theming:
-      theme: 'default'
+      theme: 'infoslips'
       iconset: 'md'
-      darkMode: true
+      darkMode: false
     auth:
       autoLogin: false
       enforce2FA: false
