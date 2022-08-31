@@ -24,8 +24,10 @@ defaults:
       min: 1
     bindIP: 0.0.0.0
     logLevel: info
+    logFormat: default
     offline: false
     ha: false
+    bodyParserLimit: 5mb
     # DB defaults
     api:
       isEnabled: false
@@ -43,6 +45,10 @@ defaults:
     company: ''
     contentLicense: ''
     logoUrl: https://www.infoslips.com/publicImages/logo.png
+    pageExtensions:
+      - md
+      - html
+      - txt
     mail:
       host: ''
       secure: true
@@ -150,8 +156,4 @@ reservedPaths:
   - img
   - js
   - svg
-pageExtensions:
-  - md
-  - html
-  - txt
 # ---------------------------------
