@@ -17,7 +17,7 @@ const semver = require('semver')
 module.exports = () => {
   WIKI.config.site = {
     path: '',
-    title: 'Wiki.js'
+    title: 'InfoSlips'
   }
 
   WIKI.system = require('./core/system')
@@ -125,14 +125,14 @@ module.exports = () => {
         clientId: uuid()
       })
       _.set(WIKI.config, 'theming', {
-        theme: 'default',
+        theme: 'infoslips',
         darkMode: false,
         iconset: 'mdi',
         injectCSS: '',
         injectHead: '',
         injectBody: ''
       })
-      _.set(WIKI.config, 'title', 'Wiki.js')
+      _.set(WIKI.config, 'title', 'InfoSlips')
 
       // Init Telemetry
       WIKI.kernel.initTelemetry()
